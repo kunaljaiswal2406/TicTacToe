@@ -44,6 +44,7 @@ const Board = () => {
   return (
     <>
       <div className={styles.boardContainer}>
+        <div className={styles.playerInfo}>You are : X</div>
         <div className={styles.board}>
           <div className={styles.row}>
             {renderBlock(0, 0)}

@@ -18,11 +18,11 @@ class Canvas extends Component {
   };
   render() {
     const { width, height } = this.state;
-    console.log(width, height);
+
     return (
       <Particles
-      className={"particleContainer"}
-      {...this.state}
+        className={"particleContainer"}
+        {...this.state}
         params={{
           particles: {
             number: {
@@ -40,8 +40,7 @@ class Canvas extends Component {
               stroke: {
                 width: 0,
                 color: "#000000"
-              },
-           
+              }
             },
             opacity: {
               value: 0.4,

@@ -11,14 +11,13 @@ const Block = ({ row, col, board, setBoard, renderBoard, setRenderBoard }) => {
         board[row][col] = "X";
 
         let botMove = findNextMove(board);
-        console.log(botMove);
 
         if (botMove !== undefined && botMove.i !== undefined) {
           board[botMove.i][botMove.j] = "O";
         }
 
         setBoard(board);
-        console.log(board);
+
         setRenderBoard(!renderBoard);
       }}
     >

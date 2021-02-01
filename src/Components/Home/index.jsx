@@ -9,6 +9,7 @@ const Home = () => {
       <div className={styles.background}>
         <Particles />
         <Header />
+
         <Board />
       </div>
     </>
