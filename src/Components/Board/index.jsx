@@ -16,14 +16,16 @@ const Board = () => {
   useEffect(() => {
     let result = checkWinner(board);
     if (result !== null) {
-      if (result === "tie") alert("Tie!!!");
-      else alert(`${result} Wins!!`);
+      setTimeout(() => {
+        if (result === "tie") alert("Tie!!!");
+        else alert(`${result} Wins!!`);
 
-      setBoard([
-        ["", "", ""],
-        ["", "", ""],
-        ["", "", ""]
-      ]);
+        setBoard([
+          ["", "", ""],
+          ["", "", ""],
+          ["", "", ""]
+        ]);
+      }, 100);
     }
   }, [renderBoard]);
 
