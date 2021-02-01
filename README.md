@@ -1,4 +1,4 @@
-#TicTacToe 
+# TicTacToe    
 This app is made using ReactJS and to generate the moves for the bot, MINMAX algorithm is used.
 
 # Getting Started with Create React App
