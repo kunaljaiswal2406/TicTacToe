@@ -1,5 +1,5 @@
 # TicTacToe    
-This app is made using ReactJS and to generate the moves for the bot, MINMAX algorithm is used.    
+This app is made using ReactJS and to generate the moves for the bot, MINIMAX algorithm is used.    
 Demo :- [link](https://kunaljaiswal2406.github.io/TicTacToe/)
 
 # Getting Started with Create React App
